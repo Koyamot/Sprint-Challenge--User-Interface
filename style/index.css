@@ -54,7 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    background-color: black;
+    background-color: white;
 }
 
 
@@ -331,6 +331,101 @@ footer nav a {
 
     footer nav a {
         margin: 10px auto 0 auto;
+    }
+}
+
+@media(max-width: 800px) {
+    .container {
+        padding: 0;
+        padding-top: 25px;
+    }
+
+    header {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0px;
+    }
+
+    header nav{
+        font-size: 1.3rem;
+    }
+
+    .top-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .top-content h2{
+        font-size: 1.4rem;
+    }
+
+    .top-content img{
+        margin: 0;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .top-content .text-container {
+        width: 100%;
+        padding: 0 2%;
+        padding-bottom: 20px;  
+    }
+
+    .middle-content .boxes {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .middle-content h2{
+        font-size: 1.4rem;
+    }
+
+    .middle-content .boxes .box {
+        width: 15rem;
+        height: 15rem;
+        background: black;
+        margin: 30px;
+        font-size: 1.2rem;
+        color: white;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bottom-content {
+        display: flex;
+        margin: 25px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .bottom-content .text-container {
+        width: 45%;
+        padding: 0;
+    }
+
+    .text-container h2 {
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    footer nav {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    footer nav a {
+        margin: 10px 25px 0 25px;
     }
 }
 

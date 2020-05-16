@@ -35,6 +35,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
     More thoughtful html. It basically has more meaning 
     to the creator.
 
@@ -47,9 +48,11 @@ Edit this document to include your answers after each question. Make sure to lea
     Prependictular to the main axis, or "cross axis".
 
 4. Explain why git is valuable to a team of developers.
+
     Because it is used to monitor and control code changes made during development across several people or teams. It's basically a checks and balances system.
 
 5. Define mobile-first design in your own words.
+
     You design code (assuming users will use their mobile device as a primary means of accessing information) according to what it will look like on a mobile device, first. After mobile has been designed, you then modify your code to fit larger screens.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
