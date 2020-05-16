@@ -57,6 +57,13 @@ html, body {
     background-color: black;
 }
 
+.shell{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 25px;
+    background: white;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -65,7 +72,7 @@ h1, h2, h3, h4, h5 {
 
 header {
     background: white;
-    width: 800px;
+    width: 100%;
     margin: 0 auto 25px auto;
     display: flex;
     align-items: flex-end;
@@ -87,20 +94,10 @@ p {
     line-height: 1.4;
 }
 
-.shell{
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 25px;
-    background: white;
-}
-
-.banner {
-    margin: 25px 0;
-}
-
 .container {
     width: 800px;
     margin: 0 auto;
+    background: white;
 }
 
 .top-content {
@@ -117,6 +114,9 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content img{
+    margin: 25px 0;
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -143,6 +143,46 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box:nth-child(1) {
+  background: teal; 
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold; 
+  }
+
+  .middle-content .boxes .box:nth-child(3) {
+    background: cadetblue; 
+  }
+
+  .middle-content .boxes .box:nth-child(4) {
+    background: coral; 
+  }
+
+  .middle-content .boxes .box:nth-child(5) {
+    background: crimson; 
+  }
+
+  .middle-content .boxes .box:nth-child(6) {
+    background: forestgreen; 
+  }
+
+  .middle-content .boxes .box:nth-child(7) {
+    background: darkorchid; 
+  }
+
+  .middle-content .boxes .box:nth-child(8) {
+    background: hotpink; 
+  }
+
+  .middle-content .boxes .box:nth-child(9) {
+    background: indigo; 
+  }
+
+  .middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue; 
+  }
 
 .bottom-content {
     display: flex;
@@ -175,4 +215,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media(max-width: 500px) {
+
+
 }
